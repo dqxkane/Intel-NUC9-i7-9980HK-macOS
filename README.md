@@ -10,7 +10,7 @@ Intel 英特尔 NUC9 幽灵峡谷 Hackintosh 黑苹果配置和教程，根据�
 
 支持系统：
 
-- macOS Sonoma 14.3 （OpenCore 0.9.7）
+- macOS Sonoma 14.5 （OpenCore 0.9.7 / IOSkywalkFamily.kext v1.1.0）
 
 更新说明：
 
@@ -48,7 +48,7 @@ Intel 英特尔 NUC9 幽灵峡谷 Hackintosh 黑苹果配置和教程，根据�
 
 ## 安装说明
 
-本次系统安装的当前最新版本 macOS Sonoma 14.3（2024年1月发布），最新的 OpenCore 0.9.7。安装步骤遵循官方指导文件，选择最小化最适合的配置，所有kexts 均从官方下载最新版，无多余内容。制作镜像和启动的教程很多，这里就不再赘述了，也可以看下面的参考链接。
+本次系统安装的当前最新版本 macOS Sonoma 14.5，最新的 OpenCore 0.9.7。安装步骤遵循官方指导文件，选择最小化最适合的配置，所有kexts 均从官方下载最新版（确保 IOSkywalkFamily.kext 为 v1.1.0 以适配 14.4+），无多余内容。制作镜像和启动的教程很多，这里就不再赘述了，也可以看下面的参考链接。
 
 注意事项：
 
