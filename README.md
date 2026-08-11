@@ -2,7 +2,7 @@
 
 Intel NUC9 Ghost Canyon（NUC9i9QNX，i9-9980HK）黑苹果 EFI，基于 OpenCore。
 
-**已实测：macOS Sequoia 安装完成并稳定运行；已做好 macOS Tahoe 升级前置。**
+**已实测：macOS Sequoia 15.x 与 macOS Tahoe 26.6.1 均安装完成并稳定运行。**
 
 完整说明见 [NUC9/README.md](./NUC9/README.md)。
 
@@ -24,14 +24,16 @@ Intel NUC9 Ghost Canyon（NUC9i9QNX，i9-9980HK）黑苹果 EFI，基于 OpenCor
 - `SecureBootModel = Disabled` — 否则安装器 restore 阶段会"优雅重启"循环
 - `DevirtualiseMmio = false` — 避免早期内核 `_vc_display_lzss_icon` panic
 - iGPU 帧缓冲：`07009B3E` + `framebuffer-patch-enable` + `stolenmem` + `fbmem`
-- macOS Tahoe 前置：OpenCore 1.0.7 + RestrictEvents + `-ibtcompatbeta revpatch=sbvmm`
-- ⚠️ macOS 26 移除 AppleHDA，模拟音频（AppleALC）失效
+- macOS Tahoe：OpenCore 1.0.7 + RestrictEvents + `-ibtcompatbeta revpatch=sbvmm`
+- **USBMap 在 macOS 26 下保持禁用**——26 的 `AppleUSBHostMergeProperties` 合并会破坏端口；原生 XHCI 已枚举全部端口（11.3+ 无 15 端口限制）
+- ⚠️ macOS 26 移除 AppleHDA，**模拟音频（AppleALC）失效**（HDMI/DP/USB 数字音频不受影响）
 
 ## 支持
 
 - macOS Sequoia 15.x ✅
-- macOS Tahoe 26（前置就绪）🚧
-- 无线/蓝牙：Intel AX200 + itlwm/HeliPort；蓝牙 Intel 原生 kext
+- macOS Tahoe 26.6.1 ✅
+- 有线网卡：IntelMausi + AppleIntelI210Ethernet（`e1000=0`）✅
+- 无线/蓝牙：Intel AX200（itlwm/HeliPort，需 nightly 支持 Tahoe）+ 蓝牙 Intel kext（`-ibtcompatbeta`）
 
 ## 致谢
 
