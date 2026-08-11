@@ -2,3 +2,9 @@
 
 /OpCore-Simplify/
 /OpenCore-Install-Guide/
+
+# OpenCore boot logs
+NUC9/opencore-*.txt
+
+# config backups
+NUC9/EFI/OC/config.plist.bak-*
