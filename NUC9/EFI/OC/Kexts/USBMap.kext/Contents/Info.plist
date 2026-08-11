@@ -52,6 +52,12 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						AQAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						AQAAAA==
@@ -62,6 +68,12 @@
 						<key>Comment</key>
 						<string>B2-1T2</string>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						AgAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
@@ -74,6 +86,12 @@
 						<string>B1-2T2</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						AwAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -85,6 +103,12 @@
 						<string>B1-1T2</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						BAAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -92,47 +116,77 @@
 					</dict>
 					<key>HS05</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						BQAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						BQAAAA==
 						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS06</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						BgAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						BgAAAA==
 						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS07</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						BwAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						BwAAAA==
 						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS08</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						CAAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						CAAAAA==
 						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS09</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						CQAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						CQAAAA==
 						</data>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
 						<integer>3</integer>
 					</dict>
 					<key>HS10</key>
@@ -141,6 +195,12 @@
 						<string>F-T2</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						CgAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						CgAAAA==
@@ -148,34 +208,58 @@
 					</dict>
 					<key>HS11</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						CwAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						CwAAAA==
 						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS12</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						DAAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						DAAAAA==
 						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS13</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						DQAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						DQAAAA==
 						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS14</key>
 					<dict>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						DgAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
@@ -184,11 +268,17 @@
 					</dict>
 					<key>HS15</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						DwAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						DwAAAA==
 						</data>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
 						<integer>3</integer>
 					</dict>
 					<key>SS01</key>
@@ -196,6 +286,12 @@
 						<key>Comment</key>
 						<string>B2-2T3</string>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						EQAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
@@ -208,6 +304,12 @@
 						<string>B2-1T3</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						EgAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						EgAAAA==
@@ -218,6 +320,12 @@
 						<key>Comment</key>
 						<string>B1-2T3</string>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						EwAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
@@ -230,6 +338,12 @@
 						<string>B1-1T3</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						FAAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						FAAAAA==
@@ -241,6 +355,12 @@
 						<string>F-T3</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						FQAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						FQAAAA==
@@ -250,6 +370,12 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						FgAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						FgAAAA==
@@ -257,11 +383,17 @@
 					</dict>
 					<key>SS07</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						FwAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						FwAAAA==
 						</data>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
 						<integer>3</integer>
 					</dict>
 				</dict>
@@ -297,20 +429,32 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						AQAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						AQAAAA==
 						</data>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>#kUSBHostPortPropertyPortNumber</key>
+						<data>
+						AgAAAA==
+						</data>
 						<key>#port</key>
 						<data>
 						AgAAAA==
 						</data>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortType</key>
 						<integer>3</integer>
 					</dict>
 					<key>SS01</key>
@@ -318,6 +462,12 @@
 						<key>Comment</key>
 						<string>B3</string>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						AwAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
@@ -329,6 +479,12 @@
 						<key>Comment</key>
 						<string>B4</string>
 						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>kUSBHostPortPropertyPortNumber</key>
+						<data>
+						BAAAAA==
+						</data>
+						<key>kUSBHostPortPropertyPortType</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
