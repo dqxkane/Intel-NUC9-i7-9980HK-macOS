@@ -7,4 +7,7 @@
 NUC9/opencore-*.txt
 
 # config backups
-NUC9/EFI/OC/config.plist.bak-*
+*.bak-*
+
+# BIOS firmware capsules
+NUC9/EFI/INTEL/*.CAP

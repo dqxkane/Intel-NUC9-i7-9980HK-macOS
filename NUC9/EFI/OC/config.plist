@@ -783,23 +783,23 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C07225600GUKXPGAD</string>
+                <string>C02039405J900001H</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>3rfvRgtA</data>
+                <data>+bP3ANjP</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>Macmini8,1</string>
+                <string>MacBookPro16,4</string>
                 <key>SystemSerialNumber</key>
-                <string>C07HW0XAJYVX</string>
+                <string>C02DG5Y0MD6T</string>
                 <key>SystemUUID</key>
-                <string>EAAD53B8-CD25-4BFF-8BC4-A98C07D3476C</string>
+                <string>0C52965F-436C-4175-8135-53BE362CEC44</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
