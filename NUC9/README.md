@@ -26,7 +26,7 @@
 - ✅ 无线：Intel AX200（itlwm 2.3.0 + HeliPort 1.5，实测可用；需 HeliPort 连网）
 - ✅ SD 读卡器：前面板插卡后正常枚举为磁盘
 - ✅ 睡眠：已禁用（`pmset -a sleep 0 autopoweroff 0 standby 0`，远程场景避免睡眠断连）
-- ⚠️ 模拟音频：macOS 26 移除 AppleHDA，AppleALC 失效（HDMI/DP/USB 数字音频不受影响）
+- ⚠️ 音频（Tahoe 无解）：macOS 26 移除 AppleHDA/IOHDAFamily/AppleHDAController，**3.5mm 模拟口与 iGPU 的 HDMI/DP 音频均失效**（AppleALC/AppleALCU 无效；纯 iGPU 机型无显示音频路径）。**USB 音频正常**；加装 dGPU（如 WX 4100）后其 DP 音频可经 AppleGFXHDA 正常输出
 - ⚠️ USBMap：macOS 26 下禁用（26 的合并机制会破坏端口；原生 XHCI 枚举全部端口）
 - ❌ Airdrop / Handoff：Intel 无线不支持
 

@@ -27,7 +27,7 @@ Intel NUC9 Ghost Canyon（NUC9i9QNX，i9-9980HK）黑苹果 EFI，基于 OpenCor
 - macOS Tahoe：OpenCore 1.0.7 + RestrictEvents + `-ibtcompatbeta revpatch=sbvmm`
 - **蓝牙修复（Tahoe）**：IntelBTPatcher `maxKernel=Sequoia` 在 Tahoe 下不激活 → 升级 IBTF/IntelBTPatcher 到 **2.5.1**（lshbluesky 社区版）+ BlueToolFixup **2.7.2**，并在 NVRAM 写入 `bluetoothExternalDongleFailed=00` 与 `bluetoothInternalControllerInfo`（14 字节 0x00），否则 bluetoothd 禁用蓝牙（详见 `NUC9/README.md`）
 - **USBMap 在 macOS 26 下保持禁用**——26 的 `AppleUSBHostMergeProperties` 合并会破坏端口；原生 XHCI 已枚举全部端口（11.3+ 无 15 端口限制）
-- ⚠️ macOS 26 移除 AppleHDA，**模拟音频（AppleALC）失效**（HDMI/DP/USB 数字音频不受影响）
+- ⚠️ macOS 26 移除 AppleHDA，**模拟音频（AppleALC）与纯 iGPU 的 HDMI/DP 音频均失效**（iGPU 显示音频依赖被删的 cAVS HDA 控制器，AppleGFXHDA 无控制器可挂）；**USB 音频正常**，dGPU 显示音频正常（详见 `NUC9/README.md`）
 
 ## 支持
 
