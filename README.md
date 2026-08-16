@@ -25,6 +25,7 @@ Intel NUC9 Ghost Canyon（NUC9i9QNX，i9-9980HK）黑苹果 EFI，基于 OpenCor
 - `DevirtualiseMmio = false` — 避免早期内核 `_vc_display_lzss_icon` panic
 - iGPU 帧缓冲：`07009B3E` + `framebuffer-patch-enable` + `stolenmem` + `fbmem`
 - macOS Tahoe：OpenCore 1.0.7 + RestrictEvents + `-ibtcompatbeta revpatch=sbvmm`
+- **蓝牙修复（Tahoe）**：IntelBTPatcher `maxKernel=Sequoia` 在 Tahoe 下不激活 → 升级 IBTF/IntelBTPatcher 到 **2.5.1**（lshbluesky 社区版）+ BlueToolFixup **2.7.2**，并在 NVRAM 写入 `bluetoothExternalDongleFailed=00` 与 `bluetoothInternalControllerInfo`（14 字节 0x00），否则 bluetoothd 禁用蓝牙（详见 `NUC9/README.md`）
 - **USBMap 在 macOS 26 下保持禁用**——26 的 `AppleUSBHostMergeProperties` 合并会破坏端口；原生 XHCI 已枚举全部端口（11.3+ 无 15 端口限制）
 - ⚠️ macOS 26 移除 AppleHDA，**模拟音频（AppleALC）失效**（HDMI/DP/USB 数字音频不受影响）
 
@@ -33,7 +34,10 @@ Intel NUC9 Ghost Canyon（NUC9i9QNX，i9-9980HK）黑苹果 EFI，基于 OpenCor
 - macOS Sequoia 15.x ✅
 - macOS Tahoe 26.6.1 ✅
 - 有线网卡：IntelMausi + AppleIntelI210Ethernet（`e1000=0`）✅
-- 无线/蓝牙：Intel AX200（itlwm/HeliPort，需 nightly 支持 Tahoe）+ 蓝牙 Intel kext（`-ibtcompatbeta`）
+- 无线：Intel AX200（itlwm 2.3.0 + HeliPort 1.5）✅
+- 蓝牙：Intel（IBTF 2.5.1 + IntelBTPatcher 2.5.1 + BlueToolFixup 2.7.2 + NVRAM 键）✅
+- SD 读卡器：插卡正常识别 ✅
+- 睡眠：已禁用（`pmset -a sleep 0`，避免远程断连）✅
 
 ## 致谢
 
